@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #00c5bb, #4956ec);
+    color: #333;
+}
+
+header {
+    background: #4edaed;
+    color: #0a0202;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+#about img {
+    display:block;
+    margin: 0 auto;
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+    border: 8px solid #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    padding: 7px;
+}
+
+#about p {
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 2em;
+    text-shadow: #1d0404;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    background: #fff;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(27, 13, 45, 0.1);
+}
+
+#projects .project {
+    background: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#projects img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#projects h3 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+
+#resume a {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+footer {
+    background: #080303;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
